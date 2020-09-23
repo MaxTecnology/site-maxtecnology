@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Max Tecnology</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <h1><a href="index.html"><img src="img/logo.png" alt="logo"></a></h1>
+
+            <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="tutoriais.html">Tutoriais</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+            </nav>
+        </div>    
+    </header>
+
+    <main>
+        <form action="">
+            <label for="nomesobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" class="input-padrao">
+
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" class="input-padrao">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" cols="60" rows="10"></textarea>
+
+            <div>
+                <p>Como prefere o nosso contato?</p>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+              
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">Email</label>
+                
+            </div>
+
+            <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+            <input type="submit" value="Enviar formulário">
+
+            <label for=""></label>
+        </form>
+    </main>
+
+    <footer>
+
+        <img src="img/logo.png" alt="Max Tecnology">
+        <p class="copyright">&copy; Max Tecnology - 2020</p>
+
+    </footer>
+</body>
+</html>
